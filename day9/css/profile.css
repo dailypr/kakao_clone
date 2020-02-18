@@ -1,0 +1,55 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.profile__pic {
+    padding-top: 150px;
+}
+.profile_avatar {
+  border-radius: 50%;
+  border: 3px solid white;
+  width: 100px;
+  height: 100px;
+}
+.profile__name {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #3a3b3d;
+  }
+  .profile__job {
+    font-size: 13px;
+    font-weight: bolder;
+    color: gainsboro;
+    margin: 10px;
+  }
+  .profile__btn{
+      display: flex;
+      justify-content: space-between;
+  }
+  .profile__follow {
+    background-color: #6B74FF;
+    border: none;
+    color: #EAECFF;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5%;
+    width: 150px;
+    margin: 10px 10px;
+  }
+  .profile__message{
+    background-color: #EAECFF;
+    border: none;
+    color: #6B74FF;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5%;
+    width: 150px;
+    margin: 10px 10px;
+  }

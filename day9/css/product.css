@@ -1,0 +1,44 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product__details {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  margin: 10px;
+
+}
+.product__name {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #3a3b3d;
+}
+.product__avatar {
+  width: 200px;
+  height: 300px;
+}
+.product_summary {
+  font-size: 13px;
+  font-weight: bolder;
+  color: gainsboro;
+}
+.product__column {
+  display: flex;
+  justify-content: space-between;
+}
+.product__price {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #3a3b3d;
+}
+.product_rate {
+  font-size: 15px;
+  font-weight: bolder;
+  color: gainsboro;
+}
+.fas.fa-star {
+  color: #febe50;
+}
