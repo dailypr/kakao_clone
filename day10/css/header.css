@@ -1,0 +1,15 @@
+.main__header {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #3a3b3d;
+    padding-bottom: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main__input {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 5%;
+
+}
